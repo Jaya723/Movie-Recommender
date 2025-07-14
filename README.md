@@ -55,3 +55,13 @@ The project uses the TMDB 5000 Movie Dataset, which includes:
 
 ##Link for downloading the datasets
 - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credits.csv
+
+##STEPS TO RUN THE APPLICATION
+1. Go on the datasets link provided above and download the datasets from here.
+2. Go to the collab notebook link given and upload the datasets there. Run the notebook and download the pkl files from there. @ pkl files will be created.(Couldn't upload on github due large file size)
+3. Clone the repo in any of the editor of your choice and add the pkl files in it.
+4. Download the requirements.txt by executng the command pip install -r requirements.txt
+5. Create a .env file which will contain your API token generated from the TMDB site. Put that token in the .env file under the variable name API_TOKEN.
+6. Save all the files and now run the application by excuting the command streamlit run demo.py.
+7. Note: If you coudn't access the TMDB API results(posters) try using a VPN. Otherwise enable the Demo Mode(already enabled by default) to see the results without calling the API.
+8. I am attaching the screenshots for the application for everyone's ease.
