@@ -64,4 +64,4 @@ The project uses the TMDB 5000 Movie Dataset, which includes:
 5. Create a .env file which will contain your API token generated from the TMDB site. Put that token in the .env file under the variable name API_TOKEN.
 6. Save all the files and now run the application by excuting the command streamlit run demo.py.
 7. Note: If you coudn't access the TMDB API results(posters) try using a VPN. Otherwise enable the Demo Mode(already enabled by default) to see the results without calling the API.
-8. I am attaching the screenshots for the application for everyone's ease.
+8. I have added the video regarding it please check it out.
